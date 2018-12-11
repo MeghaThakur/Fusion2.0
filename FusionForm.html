@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+ 
+<html xmlns='http://www.w3.org/1999/xhtml'>
+   <head >
+      <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
+      <title >Form</title>
+   </head>
+<body>
+<div style="width:100%;"> 
+<h4> form</h4>
+<div style="float:left; width:50%;">
+ <table align=left>
+<form id='DomesticAirFare' method='post' action='' >
+<tr>
+<td>Date<sup>*</sup></td>
+<td><input type='date' name='date' id = "Date1"/></td>
+</tr>
+<tr>
+<td>Type<sup>*</sup></td>
+<td><input type='text' name='TypeOfFare' value = "DomesticAirFare" id = "TypeOfFare1" readonly/></td>
+</tr>
+<tr>
+<td>Expense Location</td>
+<td><select id="Location1">
+	<option value="DL">Delhi</option>
+	<option value="MH">Maharashtra</option>
+	<option value="KA">Karnataka</option>
+	<option value="TN">Tamil Nadu</option>
+	<option value="UP">Uttar Pradesh</option>
+</select></td>
+</tr>
+<tr>
+<td>Amount<sup>*</sup></td>
+<td><select>
+	<option value="INR">INR-Indian Rupees</option>
+	<option value="IEP">Irish-Pound</option>
+	<option value="IQD">IQD-Iraqi Dinar</option>
+	<option value="ITl">ITL-Italian Lira</option>
+	<option value="JMD">Jamaican Dollar</option>
+</select>
+<input type="number" name="amount" id = "amount1">
+</td>
+</tr>
+<tr>
+<td>Number of Days</td>
+<td><input type="number" name="numOfDays" id = "numOfDays"></td>
+</tr>
+<tr>
+<td>Daily Amount</td>
+<td><input type='number' name='dailyAmount' id = "dailyAmount1"/>INR</td>
+</tr>
+<tr>
+<td>Attachments</td>
+<td><input type='file' name='upload' id = "attachFile"/></td>
+</tr>
+<tr>
+<td>Description<sup>*</sup></td>
+<td><textarea rows="3" cols="20" id="Description1">
+</textarea></td>
+</tr>
+<tr>
+<td>Merchant Name<sup>*</sup></td>
+<td><textarea rows="2" cols="25" id="MerchantName1">
+</textarea></td>
+</tr>
+</table>
+</div>
+<div style="float:right; width:50%; ">
+<table>
+<tr>
+<td>HSBC Approved G&E Reference</td>
+<td><input type='text' name='G&EReference' id = "G&EReference1"/></td>
+</tr>
+<tr>
+<td>HRG/KDs Booking Reference</td>
+<td><input type='text' name='BookingReference' id = "BookingReference1"/></td>
+</tr>
+<tr>
+<td>Travel Start Date<sup>*</sup></td>
+<td><input type='date' name='StartDate' id = "StartDate1"/></td>
+</tr>
+<tr>
+<td>Class<sup>*</sup></td>
+<td><select id = "class1">
+	<option value="Economy">Economy</option>
+	<option value="Premium Economy">Premium Economy</option>
+	<option value="Business">Business</option>
+	<option value="First">First</option>
+</select></td>
+</tr>
+<tr>
+<td>Travel End Date<sup>*</sup></td>
+<td><input type='date' name='EndDate' id = "EndDate1"/></td>
+</tr>
+</table>
+
+</form>
+</div>
+<div>
+<input type="submit" value="submit" formaction="">
+<div>
+</body>
+</html>
