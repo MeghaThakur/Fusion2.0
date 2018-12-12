@@ -1,0 +1,109 @@
+{
+	"data": [
+
+		{
+			"Info": "Date",
+			"id": "Date1",
+			"component": "input",
+			"type": "date",
+			"value": []
+		},
+
+		{
+			"Info": "Type",
+			"id": "TypeOfFair1",
+			"component": "input",
+			"type": "text",
+			"value": []
+		},
+		{
+			"Info": "Expense Location",
+			"id": "Location1",
+			"component": "select",
+			"type": [],
+			"value": ["Delhi", "Maharashtra", "Karnataka", "Tamil Nadu", "Uttar Pradesh"]
+		},
+
+
+		{
+			"Info": "Amount",
+			"id": "amountOption",
+			"component": "select",
+			"type": "",
+			"value": ["INR-Indian Rupees", "Irish-Pound", "IQD-Iraqi Dinar", "ITL-Italian Lira", "Jamaican Dollar"]
+		},
+		{
+			"Info": "Number of Days",
+			"id": "NumOfDays1",
+			"component": "input",
+			"type": "number",
+			"value": []
+		},
+		{
+			"Info": "Daily Amount",
+			"id": "dailyAmount1",
+			"component": "input",
+			"type": "number",
+			"value": []
+		},
+		{
+			"Info": "Attachments",
+			"id": "attachFile",
+			"component": "input",
+			"type": "file",
+			"value": []
+		},
+		{
+			"Info": "Description",
+			"id": "Description1",
+			"component": "textarea",
+			"type": [],
+			"value": []
+		},
+		{
+			"Info": "Merchant Name",
+			"id": "MerchantName1",
+			"component": "textarea",
+			"type": [],
+			"value": []
+		},
+		{
+			"Info": "HSBC Approved G&E Reference",
+			"id": "G&EReference1",
+			"component": "input",
+			"type": "text",
+			"value": []
+		},
+		{
+			"Info": "HRG/KDs Booking Reference",
+			"id": "BookingReference1",
+			"component": "input",
+			"type": "text",
+			"value": []
+		},
+		{
+			"Info": "Travel Start Date",
+			"id": "StartDate1",
+			"component": "input",
+			"type": "date",
+			"value": []
+		},
+
+		{
+			"Info": "Class",
+			"id": "class1",
+			"component": "select",
+			"type": [],
+			"value": ["Economy", "Premium Ecom=nomy", "Business", "First"]
+		},
+
+		{
+			"Info": "Travel End Date",
+			"id": "EndDate1",
+			"component": "input",
+			"type": "date",
+			"value": []
+		}
+
+	]
+}
