@@ -15,8 +15,6 @@ public class PopulateFusionPage extends BaseSetup {
 
 	/* Form Templates */
 	DomesticAirTravelForm datform;
-//	String test = BaseSetup.properties.getProperty("name");
-//	String message = BaseSetup.properties.getProperty("message");
 
 	@Rule
 	public TestName name = new TestName();
@@ -31,13 +29,7 @@ public class PopulateFusionPage extends BaseSetup {
 		if (BaseSetup.hasQuit) {
 			init();
 		}
-
 		this.datform = new DomesticAirTravelForm();
-//		String test = BaseSetup.properties.getProperty("name");
-//		System.out.println("Test case results" + test);
-//		String message = BaseSetup.properties.getProperty("message");
-//		System.out.println("Test case results" + message);
-
 	}
 
 	// @Test
@@ -53,7 +45,7 @@ public class PopulateFusionPage extends BaseSetup {
 	public void bFillFusionForm() throws InterruptedException {
 		System.out.println("We are populating form: " + this.name.getMethodName());
 		this.datform.fillForm();
-//		this.datform.submit();
+		// this.datform.submit();
 		Thread.sleep(5000);
 	}
 

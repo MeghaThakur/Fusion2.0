@@ -22,6 +22,7 @@ public class DomesticAirTravelForm extends BaseSetup {
 	public void fillForm() throws InterruptedException {
 		for (Data model : BaseSetup.dataArray) {
 			Thread.sleep(1000);
+			System.out.println("Elements inside dataArray in DomesticAirTravelForm");
 			System.out.println(model.getId() + "=" + model.getValue());
 			WebElement SearchButton = driver.findElement(By.id(model.getId()));
 			SearchButton.click();

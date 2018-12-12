@@ -16,11 +16,13 @@ public class FormObjectMapper {
 		ObjectMapper objectMapper = new ObjectMapper();
 		objectMapper.configure(DeserializationFeature.USE_JAVA_ARRAY_FOR_JSON_ARRAY, true);
 		Data[] data = objectMapper.readValue(new FileInputStream("form.json"), Data[].class);
+		
+		System.out.println("The array from ObjectMapper");
+		// print the json stringify
+		for (Data model : data) {
 
-//		print the json stringify
-//		for (Data model : data) {
-//			System.out.println(model.getId() + "=" + model.getValue());
-//		}
+			System.out.println(model.getId() + "=" + model.getValue());
+		}
 		return data;
 	}
 
