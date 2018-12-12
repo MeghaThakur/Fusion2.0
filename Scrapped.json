@@ -103,7 +103,15 @@
 			"component": "input",
 			"type": "date",
 			"value": []
+		},
+		{
+			"Info": "Submit",
+			"id": "submit1",
+			"component": "input",
+			"type": "submit",
+			"value": []
 		}
+		
 
 	]
 }
