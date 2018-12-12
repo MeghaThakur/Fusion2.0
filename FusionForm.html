@@ -1,17 +1,15 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
- 
+
 <html xmlns='http://www.w3.org/1999/xhtml'>
    <head >
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title >Form</title>
    </head>
 <body>
-<div style="width:100%;"> 
+<div style="width:100%;">
 <h4> form</h4>
 <div style="float:left; width:50%;">
+
  <table align=left>
-<form id='DomesticAirFare' method='post' action='' >
 <tr>
 <td>Date<sup>*</sup></td>
 <td><input type='date' name='date' id = "Date1" value=""/></td>
@@ -22,7 +20,7 @@
 </tr>
 <tr>
 <td>Expense Location</td>
-<td><select id="Location1" >
+<td class="lefty" ><select id="Location1" >
 	<option value="DL">Delhi</option>
 	<option value="MH">Maharashtra</option>
 	<option value="KA">Karnataka</option>
@@ -32,7 +30,7 @@
 </tr>
 <tr>
 <td>Amount<sup>*</sup></td>
-<td><select>
+<td class="lefty"><select id="amountOption">
 	<option value="INR">INR-Indian Rupees</option>
 	<option value="IEP">Irish-Pound</option>
 	<option value="IQD">IQD-Iraqi Dinar</option>
@@ -48,7 +46,7 @@
 </tr>
 <tr>
 <td>Daily Amount</td>
-<td><input type='number' name='dailyAmount' id = "dailyAmount1" value=""/>INR</td>
+<td><input type='number' name='dailyAmount' id = "dailyAmount1" value=""/></td>
 </tr>
 <tr>
 <td>Attachments</td>
@@ -82,7 +80,7 @@
 </tr>
 <tr>
 <td>Class<sup>*</sup></td>
-<td><select id = "class1">
+<td class=""><select id = "class1">
 	<option value="Economy">Economy</option>
 	<option value="Premium Economy">Premium Economy</option>
 	<option value="Business">Business</option>
@@ -95,11 +93,9 @@
 </tr>
 </table>
 
-</form>
 </div>
 <div>
 <input type="submit" id="submit1" value="submit" formaction="" name="submit">
 <div>
 </body>
 </html>
-
