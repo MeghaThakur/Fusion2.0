@@ -14,7 +14,7 @@
 <form id='DomesticAirFare' method='post' action='' >
 <tr>
 <td>Date<sup>*</sup></td>
-<td><input type='date' name='date' id = "Date1"/></td>
+<td><input type='date' name='date' id = "Date1" value=""/></td>
 </tr>
 <tr>
 <td>Type<sup>*</sup></td>
@@ -22,7 +22,7 @@
 </tr>
 <tr>
 <td>Expense Location</td>
-<td><select id="Location1">
+<td><select id="Location1" >
 	<option value="DL">Delhi</option>
 	<option value="MH">Maharashtra</option>
 	<option value="KA">Karnataka</option>
@@ -39,29 +39,29 @@
 	<option value="ITl">ITL-Italian Lira</option>
 	<option value="JMD">Jamaican Dollar</option>
 </select>
-<input type="number" name="amount" id = "amount1">
+<input type="number" name="amount" id = "amount1" value="">
 </td>
 </tr>
 <tr>
 <td>Number of Days</td>
-<td><input type="number" name="numOfDays" id = "numOfDays"></td>
+<td><input type="number" name="numOfDays" id = "NumOfDays1" value=""></td>
 </tr>
 <tr>
 <td>Daily Amount</td>
-<td><input type='number' name='dailyAmount' id = "dailyAmount1"/>INR</td>
+<td><input type='number' name='dailyAmount' id = "dailyAmount1" value=""/>INR</td>
 </tr>
 <tr>
 <td>Attachments</td>
-<td><input type='file' name='upload' id = "attachFile"/></td>
+<td><input type='file' name='upload' id = "attachFile" value=""/></td>
 </tr>
 <tr>
 <td>Description<sup>*</sup></td>
-<td><textarea rows="3" cols="20" id="Description1">
+<td><textarea rows="3" cols="20" id="Description1" name="textarea" value="">
 </textarea></td>
 </tr>
 <tr>
 <td>Merchant Name<sup>*</sup></td>
-<td><textarea rows="2" cols="25" id="MerchantName1">
+<td><textarea rows="2" cols="25" id="MerchantName1" value="">
 </textarea></td>
 </tr>
 </table>
@@ -70,15 +70,15 @@
 <table>
 <tr>
 <td>HSBC Approved G&E Reference</td>
-<td><input type='text' name='G&EReference' id = "G&EReference1"/></td>
+<td><input type='text' name='G&EReference' id = "G&EReference1" value=""/></td>
 </tr>
 <tr>
 <td>HRG/KDs Booking Reference</td>
-<td><input type='text' name='BookingReference' id = "BookingReference1"/></td>
+<td><input type='text' name='BookingReference' id = "BookingReference1" value=""/></td>
 </tr>
 <tr>
 <td>Travel Start Date<sup>*</sup></td>
-<td><input type='date' name='StartDate' id = "StartDate1"/></td>
+<td><input type='date' name='StartDate' id = "StartDate1" value=""/></td>
 </tr>
 <tr>
 <td>Class<sup>*</sup></td>
@@ -91,14 +91,15 @@
 </tr>
 <tr>
 <td>Travel End Date<sup>*</sup></td>
-<td><input type='date' name='EndDate' id = "EndDate1"/></td>
+<td><input type='date' name='EndDate' id = "EndDate1" value=""/></td>
 </tr>
 </table>
 
 </form>
 </div>
 <div>
-<input type="submit" value="submit" formaction="">
+<input type="submit" id="submit1" value="submit" formaction="" name="submit">
 <div>
 </body>
 </html>
+
